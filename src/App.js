@@ -1,11 +1,15 @@
 
-import './App.css';
-import Hero from './components/Hero';
+import './App.css'
+import Footer from './common/Footer';
+import Header from './common/Header';
+import Hero from './components/Hero'
 
 function App() {
   return (
     <>
-      <Hero/>
+      <Header/>
+      <Hero />
+      <Footer/>
     </>
 
   )
